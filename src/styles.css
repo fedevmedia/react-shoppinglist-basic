@@ -1,0 +1,39 @@
+.App {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.search {
+  margin-right: 5px;
+}
+
+ul {
+  list-style: none;
+  margin: 5px 0;
+  padding: 0;
+}
+
+ul li {
+  width: 98%;
+  padding: 5px;
+  margin: 2px;
+  background: rgb(2, 84, 95);
+  border-bottom: 1px solid #ddd;
+  color: #f4f4f4;
+  transition: all 0.5s ease-in;
+  border-radius: 4px;
+}
+
+ul li:hover {
+  background: rgb(0, 123, 139);
+}
+
+input {
+  width: 98%;
+  height: 20px;
+  padding: 5px;
+}
+
+.norecords {
+  text-align: center;
+  margin: 10px;
+}
